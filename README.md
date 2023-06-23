@@ -19,3 +19,9 @@ Here we query an API for a list of countries and their past leaders. We then ext
 * retrived informations of country list and leader list with the help of user cookie.
 * from leaders list filtered their wikipedia url and scraped the first paragraph.(not from API but from the root link)
 * sanitized output with regex.
+*created session instead of cookie.
+*saved the work in .json file.
+
+# Situation
+this project was done as a part of AI Bootcamp at Becode.org
+
