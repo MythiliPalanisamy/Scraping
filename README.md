@@ -25,3 +25,10 @@ Here we query an API for a list of countries and their past leaders. We then ext
 # Situation
 this project was done as a part of AI Bootcamp at Becode.org
 
+# Completion
+Name                -   Mythili Palanisamy
+Repository          -   Wikipedia Scrapper
+Type of Challenge   -   Learning
+Duration            -   3 days
+Submission          -   23/06/2023  5:30PM
+Team challenge      -   solo
