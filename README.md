@@ -1,34 +1,40 @@
-## My first scraper
+# scraping leaders wikipedia entry
+![web_scraping](./assets/scraping.jpg)
 
-# The Mission
+## Table of contents
+1. [Introduction](#introduction)
+2. [Installation](#installation) 
+3. [Process](#process)
+4. [Completion](#completion)
 
-In this project, we will guide you step by step through the process of:
+<a name="introduction"></a>
+## Introduction
 
-1. creating a self-contained development environment.
-2. retrieving some information from an API (a website for computers)
-3. leveraging it to scrape a website that does not provide an API
-4. saving the output for later processing
+This project is a part of the AI Bootcamp in Gent at BeCode.org involves extracting information from the first paragraph of Wikipedia entries about the leaders of five different countries with the help of requests and beautifulsoup.
 
-Here we query an API for a list of countries and their past leaders. We then extract and sanitize their short bio from Wikipedia. Finally, we save the data to disk.
+<a name="installation"></a>
+## Installation
 
-# Creating a clean environment
-* using venv created a new environment called `wikipedia_scraper_env`.
-* Activated and added my environment to .gitignore.
+[![python](https://img.shields.io/badge/python-3.12.0-green)](https://www.python.org/downloads/)
+[![beautifulsoup](https://img.shields.io/badge/Beautifulsoup-4.12.2-red)](https://pypi.org/project/beautifulsoup4/)
+[![requests](https://img.shields.io/badge/requests-2.31.0-indigo)](https://pypi.org/project/requests/)
+[![regex](https://img.shields.io/badge/sqlalchemy-green)](https://pypi.org/project/regex/)
 
-# API Scraping
-* retrived informations of country list and leader list with the help of user cookie.
-* from leaders list filtered their wikipedia url and scraped the first paragraph.(not from API but from the root link)
-* sanitized output with regex.
-*created session instead of cookie.
-*saved the work in .json file.
+* clone the repository
+* install the requirements
+* run `main.py` from `src`
 
-# Situation
-this project was done as a part of AI Bootcamp at Becode.org
+<a name="process"></a>
+## Process
+* retrived countries list
+* scraped leaders list from each and every country including respective url with user cookie
+* from url scrape the data of first paragraph in wikipedia with requests and beautifulsoup
+* cleaned the output with regex
+* created session instead of using cookie everytime
+* saved the output in .json file
 
-# Completion
-* Name                -   Mythili Palanisamy
-* Repository          -   Wikipedia Scrapper
-* Type of Challenge   -   Learning
-* Duration            -   3 days
-* Submission          -   23/06/2023  5:30PM
-* Team challenge      -   solo
+<a name="completion"></a>
+## Completion
+- Name                -   Mythili Palanisamy [LinkedIn](https://www.linkedin.com/in/mythili-palanisamy-492147159) [GitHub](https://github.com/MythiliPalanisamy)
+- Duration            -   3 days
+- Team challenge      -   solo

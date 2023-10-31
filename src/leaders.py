@@ -50,6 +50,7 @@ def get_leaders():
         if req_leaders.status_code==403:
             req_cookie=session.get(cookie_url)
             cookie=req_cookie.cookies.get_dict()
+            
             req_leaders = session.get(leaders_url,cookies=cookie, params={'country' : country})
         leaders = req_leaders.json()
         
