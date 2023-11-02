@@ -18,7 +18,7 @@ This project is a part of the AI Bootcamp in Gent at BeCode.org involves extract
 [![python](https://img.shields.io/badge/python-3.12.0-green)](https://www.python.org/downloads/)
 [![beautifulsoup](https://img.shields.io/badge/Beautifulsoup-4.12.2-red)](https://pypi.org/project/beautifulsoup4/)
 [![requests](https://img.shields.io/badge/requests-2.31.0-indigo)](https://pypi.org/project/requests/)
-[![regex](https://img.shields.io/badge/sqlalchemy-green)](https://pypi.org/project/regex/)
+[![regex](https://img.shields.io/badge/regex-green)](https://pypi.org/project/regex/)
 
 * clone the repository
 * install the requirements
