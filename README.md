@@ -37,4 +37,4 @@ This project is a part of the AI Bootcamp in Gent at BeCode.org involves extract
 ## 🏁 Completion
 - Name                -   Mythili Palanisamy [LinkedIn](https://www.linkedin.com/in/mythili-palanisamy-492147159) [GitHub](https://github.com/MythiliPalanisamy)
 - Duration            -   3 days
-- Team challenge      -   solo
+- Project type     -   solo
